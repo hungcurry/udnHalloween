@@ -1,8 +1,22 @@
 <!-- PC區塊_主視覺開始 -->
-<meta name="viewport"
-  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta
+  name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+/>
 <meta charset="UTF-8" />
 <meta property="og:image" content="./images/mob_01.jpg" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJ567NCKWH"></script>
+<script>
+  window.dataLayer = window.dataLayer || []
+  function gtag() {
+    dataLayer.push(arguments)
+  }
+  gtag('js', new Date())
+
+  gtag('config', 'G-WJ567NCKWH')
+</script>
 
 <!-- 活動樣式開始 -->
 <style>
@@ -66,10 +80,10 @@
   .udnLOGO {
     display: block;
     z-index: 700;
-    width: calc(139/1190*100%);
+    width: calc(139 / 1190 * 100%);
     position: absolute;
-    left: calc(40/1190*100%);
-    top: calc(33/1190*100%);
+    left: calc(40 / 1190 * 100%);
+    top: calc(33 / 1190 * 100%);
   }
 
   .udnLOGO span {
@@ -183,7 +197,6 @@
   @keyframes ACT {
     0% {
       opacity: 0;
-
     }
 
     50% {
@@ -225,11 +238,11 @@
     position: absolute;
     left: 0%;
     top: 0%;
-    -webkit-animation: blowUp .5s .2s both;
-    -moz-animation: blowUp .5s .2s both;
-    -ms-animation: blowUp .5s .2s both;
-    -o-animation: blowUp .5s .2s both;
-    animation: blowUp .5s .2s both;
+    -webkit-animation: blowUp 0.5s 0.2s both;
+    -moz-animation: blowUp 0.5s 0.2s both;
+    -ms-animation: blowUp 0.5s 0.2s both;
+    -o-animation: blowUp 0.5s 0.2s both;
+    animation: blowUp 0.5s 0.2s both;
   }
 
   .vspc .main .monster {
@@ -239,11 +252,11 @@
     position: absolute;
     right: 0;
     top: 208px;
-    -webkit-animation: slideInUp .5s .2s both;
-    -moz-animation: slideInUp .5s .2s both;
-    -ms-animation: slideInUp .5s .2s both;
-    -o-animation: slideInUp .5s .2s both;
-    animation: slideInUp .5s .6s both;
+    -webkit-animation: slideInUp 0.5s 0.2s both;
+    -moz-animation: slideInUp 0.5s 0.2s both;
+    -ms-animation: slideInUp 0.5s 0.2s both;
+    -o-animation: slideInUp 0.5s 0.2s both;
+    animation: slideInUp 0.5s 0.6s both;
   }
 
   .vspc .main .popup {
@@ -253,8 +266,8 @@
     position: absolute;
     right: 15px;
     top: 16px;
-    animation: popmov 1s .6s both ease-in-out infinite alternate;
-    -ms-animation: popmov 1s .6s both ease-in-out infinite alternate
+    animation: popmov 1s 0.6s both ease-in-out infinite alternate;
+    -ms-animation: popmov 1s 0.6s both ease-in-out infinite alternate;
   }
 
   .vspc .main .decoration {
@@ -264,28 +277,28 @@
     position: absolute;
     left: 11%;
     top: 3%;
-    -webkit-animation: decoration 8s .6s both infinite;
-    -moz-animation: decoration 8s .6s both infinite;
-    -ms-animation: decoration 8s .6s both infinite;
-    -o-animation: decoration 8s .6s both infinite;
-    animation: decoration 8s .6s both infinite;
+    -webkit-animation: decoration 8s 0.6s both infinite;
+    -moz-animation: decoration 8s 0.6s both infinite;
+    -ms-animation: decoration 8s 0.6s both infinite;
+    -o-animation: decoration 8s 0.6s both infinite;
+    animation: decoration 8s 0.6s both infinite;
   }
 
   .vspc .main .MainTitle {
-    width: calc(835/1190*100%);
+    width: calc(835 / 1190 * 100%);
     height: 0;
-    padding-bottom: calc(871/1190*100%);
+    padding-bottom: calc(871 / 1190 * 100%);
     background-image: url(./images/title.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
     position: absolute;
     left: 0%;
     top: 0%;
-    -webkit-animation: blowUp .5s .8s both;
-    -moz-animation: blowUp .5s .8s both;
-    -ms-animation: blowUp .5s .8s both;
-    -o-animation: blowUp .5s .8s both;
-    animation: blowUp .5s .8s both;
+    -webkit-animation: blowUp 0.5s 0.8s both;
+    -moz-animation: blowUp 0.5s 0.8s both;
+    -ms-animation: blowUp 0.5s 0.8s both;
+    -o-animation: blowUp 0.5s 0.8s both;
+    animation: blowUp 0.5s 0.8s both;
   }
 
   .vspc .main .ACT {
@@ -297,44 +310,44 @@
   }
 
   .vspc .main .ACT:after {
-    content: "";
+    content: '';
     display: block;
     width: 100%;
     height: 0;
     clear: both;
   }
 
-  .vspc .main .ACT>li {
+  .vspc .main .ACT > li {
     display: block;
     float: left;
   }
 
-  .vspc .main .ACT>li:nth-child(1) {
+  .vspc .main .ACT > li:nth-child(1) {
     width: 192px;
   }
 
-  .vspc .main .ACT>li:nth-child(2) {
+  .vspc .main .ACT > li:nth-child(2) {
     width: 226px;
   }
 
-  .vspc .main .ACT>li:nth-child(3) {
+  .vspc .main .ACT > li:nth-child(3) {
     width: 267px;
   }
 
-  .vspc .main .ACT>li:nth-child(4) {
+  .vspc .main .ACT > li:nth-child(4) {
     width: 157px;
   }
 
-  .vspc .main .ACT>li:nth-child(5) {
+  .vspc .main .ACT > li:nth-child(5) {
     width: 272px;
     height: 0;
-    padding-bottom: calc(227/1190*100%);
+    padding-bottom: calc(227 / 1190 * 100%);
     background-image: url(./images/prize05.png);
     margin-top: 67px;
     background-size: 100% auto;
   }
 
-  .vspc .main .ACT>li>a {
+  .vspc .main .ACT > li > a {
     display: block;
     width: 100%;
     height: 0;
@@ -342,39 +355,39 @@
     background-position: center top;
   }
 
-  .vspc .main .ACT>li:nth-child(1)>a {
-    padding-bottom: calc(286/192*100%);
+  .vspc .main .ACT > li:nth-child(1) > a {
+    padding-bottom: calc(286 / 192 * 100%);
     background-image: url(./images/prize01.png);
   }
 
-  .vspc .main .ACT>li:nth-child(2)>a {
-    padding-bottom: calc(235/226*100%);
+  .vspc .main .ACT > li:nth-child(2) > a {
+    padding-bottom: calc(235 / 226 * 100%);
     background-image: url(./images/prize02.png);
     margin-top: 52px;
   }
 
-  .vspc .main .ACT>li:nth-child(3)>a {
-    padding-bottom: calc(263/267*100%);
+  .vspc .main .ACT > li:nth-child(3) > a {
+    padding-bottom: calc(263 / 267 * 100%);
     background-image: url(./images/prize03_1.png);
     margin-top: 24px;
     position: relative;
   }
 
-  .vspc .main .ACT>li:nth-child(4)>a {
-    padding-bottom: calc(227/157*100%);
+  .vspc .main .ACT > li:nth-child(4) > a {
+    padding-bottom: calc(227 / 157 * 100%);
     background-image: url(./images/prize04.png);
     margin-top: 60px;
   }
 
-  .vspc .main .ACT>li:nth-child(5)>a {
-    padding-bottom: calc(227/272*100%);
+  .vspc .main .ACT > li:nth-child(5) > a {
+    padding-bottom: calc(227 / 272 * 100%);
   }
 
-  .vspc .main .ACT>li>a>span {
+  .vspc .main .ACT > li > a > span {
     display: block;
     width: 100%;
     height: 0;
-    padding-bottom: calc(263/267*100%);
+    padding-bottom: calc(263 / 267 * 100%);
     background-image: url(./images/prize03_2.png);
     background-size: 100% auto;
     background-position: center top;
@@ -405,90 +418,10 @@
     display: none;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* =================================================================
 	MOB
    =================================================================*/
   @media screen and (max-width: 640px) {
-
     html,
     body {
       min-width: 0px;
@@ -516,7 +449,7 @@
 
     .vspc .main .MainTitle {
       width: 100%;
-      padding-bottom: calc(357/640*100%);
+      padding-bottom: calc(357 / 640 * 100%);
       background-image: url(./images/mob_01.jpg);
       position: inherit;
       left: auto;
@@ -531,56 +464,56 @@
       bottom: auto;
     }
 
-    .vspc .main .ACT>li:nth-child(1),
-    .vspc .main .ACT>li:nth-child(3) {
-      width: calc(348/640*100%);
+    .vspc .main .ACT > li:nth-child(1),
+    .vspc .main .ACT > li:nth-child(3) {
+      width: calc(348 / 640 * 100%);
     }
 
-    .vspc .main .ACT>li:nth-child(2),
-    .vspc .main .ACT>li:nth-child(4) {
-      width: calc(292/640*100%);
+    .vspc .main .ACT > li:nth-child(2),
+    .vspc .main .ACT > li:nth-child(4) {
+      width: calc(292 / 640 * 100%);
     }
 
-    .vspc .main .ACT>li:nth-child(5) {
+    .vspc .main .ACT > li:nth-child(5) {
       width: 100%;
-      padding-bottom: calc(172/640*100%);
+      padding-bottom: calc(172 / 640 * 100%);
       background-image: url(./images/mob_06.jpg);
       margin-top: 0px;
     }
 
-    .vspc .main .ACT>li:nth-child(1)>a {
-      padding-bottom: calc(235/348*100%);
+    .vspc .main .ACT > li:nth-child(1) > a {
+      padding-bottom: calc(235 / 348 * 100%);
       background-image: url(./images/mob_02.jpg);
       margin-top: 0px;
     }
 
-    .vspc .main .ACT>li:nth-child(2)>a {
-      padding-bottom: calc(235/292*100%);
+    .vspc .main .ACT > li:nth-child(2) > a {
+      padding-bottom: calc(235 / 292 * 100%);
       background-image: url(./images/mob_03.jpg);
       margin-top: 0px;
     }
 
-    .vspc .main .ACT>li:nth-child(3)>a {
-      padding-bottom: calc(239/348*100%);
+    .vspc .main .ACT > li:nth-child(3) > a {
+      padding-bottom: calc(239 / 348 * 100%);
       background-image: url(./images/mob_04.jpg);
       margin-top: 0px;
     }
 
-    .vspc .main .ACT>li:nth-child(4)>a {
-      padding-bottom: calc(239/292*100%);
+    .vspc .main .ACT > li:nth-child(4) > a {
+      padding-bottom: calc(239 / 292 * 100%);
       background-image: url(./images/mob_05.jpg);
       margin-top: 0px;
     }
 
-    .vspc .main .ACT>li:nth-child(5)>a {
+    .vspc .main .ACT > li:nth-child(5) > a {
       width: 100%;
-      padding-bottom: calc(172/640*100%);
+      padding-bottom: calc(172 / 640 * 100%);
       background-image: url(./images/mob_06.jpg);
       margin-top: 0px;
     }
 
-    .vspc .main .ACT>li>a>span {
-      padding-bottom: calc(239/348*100%);
+    .vspc .main .ACT > li > a > span {
+      padding-bottom: calc(239 / 348 * 100%);
       background-image: url(./images/mob_04_2.jpg);
       margin-top: 0px;
     }
@@ -594,7 +527,7 @@
     }
 
     .udnLOGO {
-      width: calc(200/640*100%);
+      width: calc(200 / 640 * 100%);
       left: 2%;
       top: 2%;
     }
@@ -613,7 +546,6 @@
       opacity: 0;
     }
   }
-
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -621,8 +553,8 @@
 <script src="./js/jquery.rwdImageMaps.min.js?v005"></script>
 <script>
   $(function () {
-    $('img[usemap]').rwdImageMaps();
-  });
+    $('img[usemap]').rwdImageMaps()
+  })
 </script>
 <!-- imageMap RWD結束 -->
 <!-- 滾動視差外掛 -->
@@ -635,34 +567,32 @@
     $('.flexslider').flexslider({
       slideshowSpeed: 5000,
       animationSpeed: 500,
-      touch: true
+      touch: true,
     })
   })
 </script>
 
-<div class="rwdbg" data-rellax-speed="10"><img src="./images/scroll.png"></div>
+<div class="rwdbg" data-rellax-speed="10"><img src="./images/scroll.png" /></div>
 <!-- 滾動視差外掛 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
 <script>
-	var rellax = new Rellax('.rwdbg');
+  var rellax = new Rellax('.rwdbg')
 </script>
 
 <div class="rock" id="scenes">
   <div data-depth="-0.25">
-    <img src="./images/cloud.png" class="img-responsive coin_left uptodown-play">
+    <img src="./images/cloud.png" class="img-responsive coin_left uptodown-play" />
   </div>
   <div data-depth="0.75">
-    <img src="./images/star.png" class="img-responsive coin_left uptodown-play">
+    <img src="./images/star.png" class="img-responsive coin_left uptodown-play" />
   </div>
 </div>
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 <script>
-  var scenes = document.getElementById('scenes');
-  var gdParallax = new Parallax(scenes);
+  var scenes = document.getElementById('scenes')
+  var gdParallax = new Parallax(scenes)
 </script>
-
 
 <a id="PageTop" name="PageTop"></a>
 <div class="vspc">
@@ -676,105 +606,145 @@
     <div class="MainTitle"></div>
     <!-- 鋪底 -->
     <ul class="ACT">
-      <li><a href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299810011pGHLjRdSBo"
-          target="_blank"></a></li>
-      <li><a href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299810011pGHLjRdSBo"
-          target="_blank"></a></li>
-      <li><a href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299810011pGHLjRdSBo"
-          target="_blank"><span></span></a></li>
-      <li><a href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299910161NmYTV01exb"
-          target="_blank"></a></li>
-      <li><a href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=288808082rdbe7RicAb"
-          target="_blank"></a></li>
-
-
+      <li>
+        <a
+          href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299810011pGHLjRdSBo"
+          target="_blank"
+        ></a>
+      </li>
+      <li>
+        <a
+          href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299810011pGHLjRdSBo"
+          target="_blank"
+        ></a>
+      </li>
+      <li>
+        <a
+          href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299810011pGHLjRdSBo"
+          target="_blank"
+          ><span></span
+        ></a>
+      </li>
+      <li>
+        <a
+          href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=299910161NmYTV01exb"
+          target="_blank"
+        ></a>
+      </li>
+      <li>
+        <a
+          href="http://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=288808082rdbe7RicAb"
+          target="_blank"
+        ></a>
+      </li>
     </ul>
     <!-- LOGO -->
     <a href="https://shopping.udn.com/mall/Cc1a00.do" target="_blank" class="udnLOGO"><span></span></a>
   </div>
   <!-- 商品 -->
-  <div class="pc"><img src="./images/01/seven_block.png" usemap="#Map" border="0" style="z-index:100" />
+  <div class="pc">
+    <img src="./images/01/seven_block.png" usemap="#Map" border="0" style="z-index: 100" />
     <map name="Map" id="Map">
       <!-- 錨點區塊 -->
-      <area shape="rect" coords="105,47,229,153" href="#a2">
-      <area shape="rect" coords="630,276,763,375" href="#a1">
-      <area shape="rect" coords="1041,639,1168,739" href="#a4">
-      <area shape="rect" coords="20,705,130,801" href="#a3">
-      <area shape="rect" coords="812,1151,931,1259" href="#a5">
-      <area shape="rect" coords="413,1619,520,1702" href="#a7">
-      <area shape="rect" coords="1005,1647,1125,1737" href="#a6">
+      <area shape="rect" coords="105,47,229,153" href="#a2" />
+      <area shape="rect" coords="630,276,763,375" href="#a1" />
+      <area shape="rect" coords="1041,639,1168,739" href="#a4" />
+      <area shape="rect" coords="20,705,130,801" href="#a3" />
+      <area shape="rect" coords="812,1151,931,1259" href="#a5" />
+      <area shape="rect" coords="413,1619,520,1702" href="#a7" />
+      <area shape="rect" coords="1005,1647,1125,1737" href="#a6" />
 
       <!-- 商品map -->
-      <area shape="poly" coords="38,170,231,173,263,26,578,26,588,290,548,498,253,504,76,503"
-        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_004" target="_blank">
-      <area shape="poly" coords="70,1373,51,1650,144,1757,325,1765,410,1588,516,1546,561,1400,258,1361"
+      <area
+        shape="poly"
+        coords="38,170,231,173,263,26,578,26,588,290,548,498,253,504,76,503"
+        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_004"
+        target="_blank"
+      />
+      <area
+        shape="poly"
+        coords="70,1373,51,1650,144,1757,325,1765,410,1588,516,1546,561,1400,258,1361"
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=Q_002_016_035&dc_cargxuid_0=U009949928"
-        target="_blank">
-      <area shape="poly" coords="632,48,618,258,801,266,803,382,834,463,905,499,1166,498,1149,218,1144,75,989,35"
-        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_001" target="_blank">
-      <area shape="poly" coords="151,547,141,965,159,1037,432,1064,559,1058,593,876,560,694,524,561"
-        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=W_003_004_016" target="_blank">
-      <area shape="poly"
+        target="_blank"
+      />
+      <area
+        shape="poly"
+        coords="632,48,618,258,801,266,803,382,834,463,905,499,1166,498,1149,218,1144,75,989,35"
+        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_001"
+        target="_blank"
+      />
+      <area
+        shape="poly"
+        coords="151,547,141,965,159,1037,432,1064,559,1058,593,876,560,694,524,561"
+        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=W_003_004_016"
+        target="_blank"
+      />
+      <area
+        shape="poly"
         coords="620,487,602,707,635,890,624,1037,682,1102,887,1106,1067,1101,1134,1031,1129,829,942,668,949,568,761,488"
-        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_007_010" target="_blank">
-      <area shape="poly" coords="74,1082,74,1326,530,1343,755,1283,791,1187,776,1136,571,1094"
-        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_003_010_002" target="_blank">
-      <area shape="poly" coords="591,1360,583,1729,879,1761,987,1761,988,1626,1117,1588,1147,1423,1086,1329,853,1310"
-        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_007_071_004" target="_blank">
+        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_007_010"
+        target="_blank"
+      />
+      <area
+        shape="poly"
+        coords="74,1082,74,1326,530,1343,755,1283,791,1187,776,1136,571,1094"
+        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_003_010_002"
+        target="_blank"
+      />
+      <area
+        shape="poly"
+        coords="591,1360,583,1729,879,1761,987,1761,988,1626,1117,1588,1147,1423,1086,1329,853,1310"
+        href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_007_071_004"
+        target="_blank"
+      />
     </map>
   </div>
 
   <div class="mob">
-    <div><a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_001" target="_blank"><img
-          src="./images/01/mob_07.jpg" border="0" /></a></div>
-    <div><a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_004" target="_blank"><img
-          src="./images/01/mob_08.jpg" border="0" /></a></div>
-    <div><a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=W_003_004_016" target="_blank"><img
-          src="./images/01/mob_09.jpg" border="0" /></a></div>
-    <div><a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_007_010" target="_blank"><img
-          src="./images/01/mob_10.png" border="0" /></a></div>
-    <div><a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_003_010_002" target="_blank"><img
-          src="./images/01/mob_11.png" border="0" /></a></div>
-    <div><a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_007_071_004" target="_blank"><img
-          src="./images/01/mob_12.png" border="0" /></a></div>
-    <div><a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=Q_002_016_035&dc_cargxuid_0=U009949928"
-        target="_blank"><img src="./images/01/mob_13.jpg" border="0" /></a></div>
+    <div>
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_001" target="_blank"
+        ><img src="./images/01/mob_07.jpg" border="0"
+      /></a>
+    </div>
+    <div>
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=M_005_001_030_004" target="_blank"
+        ><img src="./images/01/mob_08.jpg" border="0"
+      /></a>
+    </div>
+    <div>
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=W_003_004_016" target="_blank"
+        ><img src="./images/01/mob_09.jpg" border="0"
+      /></a>
+    </div>
+    <div>
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_007_010" target="_blank"
+        ><img src="./images/01/mob_10.png" border="0"
+      /></a>
+    </div>
+    <div>
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_003_010_002" target="_blank"
+        ><img src="./images/01/mob_11.png" border="0"
+      /></a>
+    </div>
+    <div>
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_007_071_004" target="_blank"
+        ><img src="./images/01/mob_12.png" border="0"
+      /></a>
+    </div>
+    <div>
+      <a
+        href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=Q_002_016_035&dc_cargxuid_0=U009949928"
+        target="_blank"
+        ><img src="./images/01/mob_13.jpg" border="0"
+      /></a>
+    </div>
   </div>
-
 </div>
 <!-- 主視覺結束 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- =====================================================================================
 ........................................DOM_側欄架構 .......................................
 =======================================================================================-->
-
 
 <!-- PC區塊_側欄開始 -->
 <style>
@@ -794,7 +764,8 @@
   .sbar {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-family: "Century Gothic", "Microsoft JhengHei", 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體', sans-serif;
+    font-family: 'Century Gothic', 'Microsoft JhengHei', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light',
+      '微軟正黑體', sans-serif;
     text-align: center;
     position: fixed;
     overflow: hidden;
@@ -807,44 +778,44 @@
     /* PC區塊側欄_離上方距離 */
     left: 0;
     /* PC區塊側欄_離右方距離 */
-    transition: all .3s;
+    transition: all 0.3s;
     /* top: 150px; */
     /* 套HEADER時需要打開 */
   }
 
-  .sbar>ul {
+  .sbar > ul {
     width: 100%;
     height: 100%;
     position: relative;
   }
 
-  .sbar>ul>li {
+  .sbar > ul > li {
     display: block;
     position: absolute;
     color: #000;
   }
 
   /* 圖框 */
-  .sbar>ul>.img_box {
+  .sbar > ul > .img_box {
     width: 160px;
   }
 
-  .sbar>ul>.img_box a {
+  .sbar > ul > .img_box a {
     width: 100%;
     display: block;
   }
 
-  .sbar>ul>.img_box img {
+  .sbar > ul > .img_box img {
     display: block;
   }
 
-  .sbar>ul>li.sleft {
+  .sbar > ul > li.sleft {
     width: 130px;
     height: auto;
   }
 
   /* 左選單 */
-  .sbar>ul>li.sleft .sleft_menu {
+  .sbar > ul > li.sleft .sleft_menu {
     width: 100%;
     height: auto;
     background-color: rgba(214, 11, 11, 0.8);
@@ -854,7 +825,7 @@
     /* border-radius: 80px 80px 80px 80px; */
   }
 
-  .sbar>ul>li.sleft .sleft_menu .sleft_item {
+  .sbar > ul > li.sleft .sleft_menu .sleft_item {
     width: 120px;
     height: 27px;
     padding: 5px;
@@ -865,7 +836,7 @@
   }
 
   /* 數字顏色 */
-  .sbar>ul>li.sleft .sleft_menu .sleft_item span {
+  .sbar > ul > li.sleft .sleft_menu .sleft_item span {
     color: #ffff00;
     font-size: 20px;
     font-weight: 600;
@@ -873,7 +844,7 @@
   }
 
   /* 字體顏色 */
-  .sbar>ul>li.sleft .sleft_menu .sleft_item a {
+  .sbar > ul > li.sleft .sleft_menu .sleft_item a {
     width: 100%;
     height: 100%;
     line-height: 27px;
@@ -886,13 +857,13 @@
   }
 
   /* 滑動換色 */
-  .sbar>ul>li.sleft .sleft_menu .sleft_item a:hover,
-  .sbar>ul>li.sleft .sleft_menu .sleft_item a:hover span {
+  .sbar > ul > li.sleft .sleft_menu .sleft_item a:hover,
+  .sbar > ul > li.sleft .sleft_menu .sleft_item a:hover span {
     color: #000;
   }
 
   /* 上圓 */
-  .sbar>ul>li.sleft .sleft_menu .sleft_first {
+  .sbar > ul > li.sleft .sleft_menu .sleft_first {
     width: 130px;
     height: 27px;
     padding: 5px;
@@ -904,7 +875,7 @@
   }
 
   /* 下圓 */
-  .sbar>ul>li.sleft .sleft_menu .sleft_footer {
+  .sbar > ul > li.sleft .sleft_menu .sleft_footer {
     width: 130px;
     height: 27px;
     padding: 5px;
@@ -915,7 +886,7 @@
     position: relative;
   }
 
-  .sbar>ul>li.sleft .sleft_menu .sleft_footer a {
+  .sbar > ul > li.sleft .sleft_menu .sleft_footer a {
     width: 100%;
     height: 100%;
     line-height: 27px;
@@ -927,8 +898,8 @@
     text-decoration: none;
   }
 
-  .sbar>ul>li.sleft .sleft_menu .sleft_footer:before {
-    content: "";
+  .sbar > ul > li.sleft .sleft_menu .sleft_footer:before {
+    content: '';
     width: 0;
     height: 0;
     border-width: 0 5px 8px 5px;
@@ -940,7 +911,7 @@
   }
 
   /* 右選單 */
-  .sbar>ul>li.sright {
+  .sbar > ul > li.sright {
     width: 30px;
     cursor: pointer;
     padding-top: 20px;
@@ -952,7 +923,7 @@
     left: 130px;
   }
 
-  .sbar>ul>li.sright>span {
+  .sbar > ul > li.sright > span {
     display: block;
   }
 
@@ -969,118 +940,112 @@
       display: none;
     }
   }
-
 </style>
 
 <script>
   $(function () {
-
-    var WW = $(window).width();
-    if (WW < 1510)
-    {
-      $(".sbar").addClass("sbarleft");
-    } else
-    {
-      $(".sbar").removeClass("sbarleft");
+    var WW = $(window).width()
+    if (WW < 1510) {
+      $('.sbar').addClass('sbarleft')
+    } else {
+      $('.sbar').removeClass('sbarleft')
     }
-    $(".sright").click(function () {
-      $(".sbar").toggleClass('sbarleft');;
-    });
+    $('.sright').click(function () {
+      $('.sbar').toggleClass('sbarleft')
+    })
     $(window).resize(function () {
-      var WW = $(window).width();
-      if (WW < 1510)
-      {
-        $(".sbar").addClass("sbarleft");
-      } else
-      {
-        $(".sbar").removeClass("sbarleft");
+      var WW = $(window).width()
+      if (WW < 1510) {
+        $('.sbar').addClass('sbarleft')
+      } else {
+        $('.sbar').removeClass('sbarleft')
       }
-    });
+    })
     $(window).scroll(function () {
-      var HH = $(window).scrollTop();
-      if (HH > 80)
-      {
-        $(".sbar").addClass("sbarTop");
-      } else
-      {
-        $(".sbar").removeClass("sbarTop");
+      var HH = $(window).scrollTop()
+      if (HH > 80) {
+        $('.sbar').addClass('sbarTop')
+      } else {
+        $('.sbar').removeClass('sbarTop')
       }
 
-      if (HH > 900)
-      {
-        $(".topback-mob").stop().animate({
-          opacity: '1'
-        }, 500);
-      } else
-      {
-        $(".topback-mob").stop().animate({
-          opacity: '0'
-        }, 500);
+      if (HH > 900) {
+        $('.topback-mob').stop().animate(
+          {
+            opacity: '1',
+          },
+          500,
+        )
+      } else {
+        $('.topback-mob').stop().animate(
+          {
+            opacity: '0',
+          },
+          500,
+        )
       }
-    });
-    $("#backtop").click(function () {
+    })
+    $('#backtop').click(function () {
       // $(window).scrollTop(0);
-      $("html,body").stop().animate({
-        scrollTop: 0
-      }, 800);
-    });
-    $(".topback-mob").click(function () {
-      $("html,body").stop().animate({
-        scrollTop: 0
-      }, 800);
-    });
-
+      $('html,body').stop().animate(
+        {
+          scrollTop: 0,
+        },
+        800,
+      )
+    })
+    $('.topback-mob').click(function () {
+      $('html,body').stop().animate(
+        {
+          scrollTop: 0,
+        },
+        800,
+      )
+    })
 
     $('.js-tabs').on('click', function (e) {
-      e.preventDefault();
-      let idx = $(this).find('a').data('value');
+      e.preventDefault()
+      let idx = $(this).find('a').data('value')
 
-      $(".popupMenu").removeClass('menuTop');
-      $(".popupMenuBG").toggleClass('popupMenuBG-active');
+      $('.popupMenu').removeClass('menuTop')
+      $('.popupMenuBG').toggleClass('popupMenuBG-active')
 
-      $(this).toggleClass('active');
-      $(this).siblings().removeClass('active');
+      $(this).toggleClass('active')
+      $(this).siblings().removeClass('active')
 
-      $(this).find('.fa').toggleClass('fa-xl');
-      $(this).siblings().find('.fa').removeClass('fa-xl');
+      $(this).find('.fa').toggleClass('fa-xl')
+      $(this).siblings().find('.fa').removeClass('fa-xl')
 
-
-      if ($(".js-tabs").hasClass("active") === true)
-      {
-        $(".popupMenuBG").addClass('popupMenuBG-active');
-        $("body").addClass('fixBody');
-        $('.content' + idx).addClass('menuTop');
+      if ($('.js-tabs').hasClass('active') === true) {
+        $('.popupMenuBG').addClass('popupMenuBG-active')
+        $('body').addClass('fixBody')
+        $('.content' + idx).addClass('menuTop')
+      } else {
+        $('body').removeClass('fixBody')
+        $('.fa').removeClass('fa-xl')
       }
-      else
-      {
-        $("body").removeClass('fixBody');
-        $(".fa").removeClass("fa-xl");
-      }
-    });
+    })
 
     function remove() {
-      $(".popupMenu").removeClass('menuTop');
-      $(".popupMenuBG").removeClass('popupMenuBG-active');
-      $("body").removeClass('fixBody');
-      $(".js-tabs").removeClass('active');
-      $(".fa").removeClass("fa-xl");
-    };
+      $('.popupMenu').removeClass('menuTop')
+      $('.popupMenuBG').removeClass('popupMenuBG-active')
+      $('body').removeClass('fixBody')
+      $('.js-tabs').removeClass('active')
+      $('.fa').removeClass('fa-xl')
+    }
 
-    $(".popupMenuBG , .js-link").click(function () {
-      remove();
-    });
-
-
-  });
+    $('.popupMenuBG , .js-link').click(function () {
+      remove()
+    })
+  })
 </script>
-
 
 <div class="sbar">
   <ul>
     <!-- 主會場圖示與連結 -->
     <div class="img_box">
       <!-- 寬160px 高150px -->
-      <img src="./images/img.png" alt="回活動主頁" title="回活動主頁">
+      <img src="./images/img.png" alt="回活動主頁" title="回活動主頁" />
     </div>
     <li class="sleft">
       <!-- 子選單 -->
@@ -1160,17 +1125,16 @@
 </div>
 <!-- PC區塊_側欄結束 -->
 
-
-
 <!-- MOBILE區塊_下方選單開始 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 <style>
   .bbar {
     display: none;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-family: "Century Gothic", "Microsoft JhengHei", 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體', sans-serif;
+    font-family: 'Century Gothic', 'Microsoft JhengHei', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light',
+      '微軟正黑體', sans-serif;
     position: fixed;
     z-index: 9999;
     width: 100vw;
@@ -1187,7 +1151,7 @@
   }
 
   .bbar_menu li {
-    width: calc(100vw/4);
+    width: calc(100vw / 4);
     /* MO2BILE區塊下方選單_數量,有幾個就除幾個(目前4) */
     height: auto;
     list-style: none;
@@ -1199,11 +1163,11 @@
     /* overflow: hidden; */
   }
 
-  .bbar_menu>li:last-child {
+  .bbar_menu > li:last-child {
     border-right: none;
   }
 
-  .bbar_item>a {
+  .bbar_item > a {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     text-decoration: none;
@@ -1228,7 +1192,7 @@
     align-items: center;
     margin: auto;
     box-shadow: 0px 0px 0px #81020bc7;
-    transition: all .1s;
+    transition: all 0.1s;
   }
 
   .fa.fa-xl {
@@ -1240,7 +1204,7 @@
     box-shadow: 0px 2px 3px #81020bc7;
   }
 
-  .bbar_item>a p {
+  .bbar_item > a p {
     font-size: 15px;
     font-weight: 600;
     width: 100%;
@@ -1252,9 +1216,9 @@
     padding: 0;
   }
 
-
   .bbar_item span {
-    font-family: "Century Gothic", "Microsoft JhengHei", 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體', sans-serif;
+    font-family: 'Century Gothic', 'Microsoft JhengHei', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light',
+      '微軟正黑體', sans-serif;
     font-size: 15px;
     font-weight: 500;
   }
@@ -1265,7 +1229,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0);
     z-index: -1;
     visibility: hidden;
   }
@@ -1283,7 +1247,7 @@
     left: 0;
     bottom: -100%;
     opacity: 0;
-    transition: all .3s;
+    transition: all 0.3s;
     border-radius: 10px 10px 0px 0px;
   }
 
@@ -1317,7 +1281,7 @@
     overflow: hidden;
     border-radius: 25px;
     margin: 0 2px;
-    transition: all .3s;
+    transition: all 0.3s;
   }
 
   /* topback-mob */
@@ -1335,7 +1299,7 @@
   }
 
   .topback-mob::before {
-    content: "▲";
+    content: '▲';
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1361,7 +1325,6 @@
 
   /* -----------------------------修改色碼-------------------------------------- */
 
-
   /*-------------------------*/
   /* 選單
 /*-------------------------*/
@@ -1382,7 +1345,7 @@
 			background-color: rgba(245, 102, 7, 0.4);
 	} */
   /* 單區塊 active 顏色  */
-  .bbar_menu>li.active {
+  .bbar_menu > li.active {
     background-color: #e0616a;
   }
 
@@ -1406,14 +1369,7 @@
     background-color: #ffffff;
   }
 
-
-
-
-
-
-
   /* -----------------------------修改色碼-------------------------------------- */
-
 </style>
 
 <div class="bbar">
@@ -1422,9 +1378,11 @@
 
     <!-- 連結 -->
     <li class="bbar_item bbar-bg01 js-link">
-      <a data-value="1"
-        href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=221905143Z55qDiEcrT">
-        <p>點我<br><span>領萬元</span></p>
+      <a
+        data-value="1"
+        href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=221905143Z55qDiEcrT"
+      >
+        <p>點我<br /><span>領萬元</span></p>
       </a>
     </li>
 
@@ -1447,7 +1405,6 @@
         <p>熱門活動</p>
       </a>
     </li>
-
   </ul>
   <!-- 子選單 -->
   <div class="popupMenuBG">
@@ -1457,39 +1414,22 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購02</p>
-          </a>
-        </li>
-      </div>
-      <div class="popupMenu__row">
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購02</p>
-          </a>
-        </li>
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購02</p>
-          </a>
-        </li>
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
@@ -1497,19 +1437,22 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
@@ -1517,19 +1460,45 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購02</p>
+          </a>
+        </li>
+      </div>
+      <div class="popupMenu__row">
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購02</p>
+          </a>
+        </li>
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購02</p>
+          </a>
+        </li>
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購02</p>
           </a>
         </li>
@@ -1541,39 +1510,22 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購03</p>
-          </a>
-        </li>
-      </div>
-      <div class="popupMenu__row">
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購03</p>
-          </a>
-        </li>
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購03</p>
-          </a>
-        </li>
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
@@ -1581,19 +1533,22 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
@@ -1601,19 +1556,45 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購03</p>
+          </a>
+        </li>
+      </div>
+      <div class="popupMenu__row">
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購03</p>
+          </a>
+        </li>
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購03</p>
+          </a>
+        </li>
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購03</p>
           </a>
         </li>
@@ -1625,39 +1606,22 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購04</p>
-          </a>
-        </li>
-      </div>
-      <div class="popupMenu__row">
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購04</p>
-          </a>
-        </li>
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
-            <p class="text-black">美食團購04</p>
-          </a>
-        </li>
-        <li class="bbar_item">
-          <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
@@ -1665,19 +1629,22 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
@@ -1685,19 +1652,45 @@
       <div class="popupMenu__row">
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
         <li class="bbar_item">
           <a
-            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01">
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購04</p>
+          </a>
+        </li>
+      </div>
+      <div class="popupMenu__row">
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購04</p>
+          </a>
+        </li>
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
+            <p class="text-black">美食團購04</p>
+          </a>
+        </li>
+        <li class="bbar_item">
+          <a
+            href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=26000824235dIMYyGSV&kdid=NA01"
+          >
             <p class="text-black">美食團購04</p>
           </a>
         </li>
@@ -1709,67 +1702,9 @@
 </div>
 <!-- MOBILE區塊_下方選單結束 -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- =====================================================================================
 ........................................DOM_組版架構 .......................................
 =======================================================================================-->
-
 
 <!-- 宮格標題區 css -->
 <style>
@@ -1778,7 +1713,8 @@
     font-size: 40px;
     line-height: 60px;
     height: 80px;
-    font-family: 'Arial', 'Helvetica,Verdana', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體', '新細明體', 'Noto Sans TC';
+    font-family: 'Arial', 'Helvetica,Verdana', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體',
+      '新細明體', 'Noto Sans TC';
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1825,18 +1761,16 @@
   /*文字顏色*/
   .wrap_title .title_outer .title_inner {
     font-size: 40px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #131212;
     font-weight: bold;
   }
 
-  @media all and (max-width:540px),
-  all and (max-device-width:540px) {
+  @media all and (max-width: 540px), all and (max-device-width: 540px) {
     .wrap_title .title_outer .title_inner {
       font-size: 8vw;
     }
   }
-
 </style>
 
 <!-- 宮格區 css -->
@@ -1845,7 +1779,8 @@
     width: 100%;
     font-size: 13px;
     line-height: 18px;
-    font-family: 'Arial', 'Helvetica,Verdana', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體', '新細明體', 'Noto Sans TC';
+    font-family: 'Arial', 'Helvetica,Verdana', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體',
+      '新細明體', 'Noto Sans TC';
     padding: 10px 10px 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1853,7 +1788,7 @@
   }
 
   .wrap_box_0b4s.last {
-    padding: 10px 10px
+    padding: 10px 10px;
   }
 
   .wrap_box_0b4s:last-child {
@@ -1893,7 +1828,7 @@
     padding-bottom: 10px;
     position: relative;
     z-index: 60;
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, 0.9);
   }
 
   .wrap_box_0b4s .box_outer .box_inner .box_icon {
@@ -1906,7 +1841,7 @@
   }
 
   .wrap_box_0b4s .box_outer .box_inner .box_icon:before {
-    content: "";
+    content: '';
     width: 0;
     height: 100%;
     display: inline-block;
@@ -1925,7 +1860,7 @@
 
   .wrap_box_0b4s .box_outer .box_inner .box_photo {
     padding: 10px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   .wrap_box_0b4s .box_outer .box_inner .box_photo img {
@@ -1971,18 +1906,17 @@
 
   .wrap_box_0b4s .box_outer .box_inner .box_txt .box_txt_price .price_origin:before,
   .wrap_box_0b4s .box_outer .box_inner .box_txt .box_txt_price .price_sale:before {
-    content: "$";
+    content: '$';
     font-size: 13px;
   }
 
   .wrap_box_0b4s .box_outer .box_inner .box_txt .box_txt_price .price_origin:before,
   .wrap_box_0b4s .box_outer .box_inner .box_txt .box_txt_price .sale2:before {
-    content: "折後價$";
+    content: '折後價$';
     font-family: Microsoft JhengHei;
   }
 
-  @media all and (max-width:768px),
-  all and (max-device-width:768px) {
+  @media all and (max-width: 768px), all and (max-device-width: 768px) {
     .wrap_box_0b4s .box_outer {
       max-width: 768px;
     }
@@ -2011,7 +1945,7 @@
 
   /*圓標底色*/
   .wrap_box_0b4s .box_outer .box_inner .box_icon {
-    background-color: #413A3B;
+    background-color: #413a3b;
     color: #fff;
   }
 
@@ -2030,7 +1964,6 @@
   .wrap_box_0b4s .box_outer .box_inner .box_txt .box_txt_price {
     color: #ac0000;
   }
-
 </style>
 
 <!-- 注意事項區 css -->
@@ -2039,7 +1972,8 @@
     width: 100%;
     line-height: 20px;
     height: auto;
-    font-family: 'Arial', 'Helvetica,Verdana', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體', '新細明體', 'Noto Sans TC';
+    font-family: 'Arial', 'Helvetica,Verdana', 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體',
+      '新細明體', 'Noto Sans TC';
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -2066,8 +2000,7 @@
     color: rgb(189, 186, 186);
   }
 
-  @media all and (max-width:640px),
-  all and (max-device-width:640px) {
+  @media all and (max-width: 640px), all and (max-device-width: 640px) {
     .precautions {
       width: 100%;
       /* margin-bottom: 10%; */
@@ -2079,26 +2012,25 @@
       color: rgb(189, 186, 186);
     }
   }
-
 </style>
 
 <!------------------=1=------------------------>
 <div class="wrap_title">
   <div class="title_outer">
-    <div class="title_inner">強檔必buy▼8折up
-    </div>
+    <div class="title_inner">強檔必buy▼8折up</div>
   </div>
 </div>
 <!-- 第1-1排 -->
 <div class="wrap_box_0b4s">
   <div class="box_outer">
     <!-- 商品1 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=E_001_002_008&dc_cargxuid_0=U010385297"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">新春優惠92折</div>
           <!-- 特標 -->
@@ -2112,14 +2044,16 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品2 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=E_003_015_013&dc_cargxuid_0=U010451739"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">賠售85折 售完為止</div>
           <!-- 特標 -->
@@ -2133,13 +2067,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品3 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010406105"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010406105" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">特殺再送HDMI線</div>
           <!-- 特標 -->
@@ -2153,13 +2087,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品4 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010449553"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010449553" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">免插電!8折下殺</div>
           <!-- 特標 -->
@@ -2173,7 +2107,8 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- END -->
   </div>
 </div>
@@ -2181,12 +2116,13 @@
 <div class="wrap_box_0b4s">
   <div class="box_outer">
     <!-- 商品5 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=P_006_007_010&dc_cargxuid_0=U010312808"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">2019 新春優惠</div>
           <!-- 特標 -->
@@ -2200,14 +2136,16 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品6 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=P_007_005_001&dc_cargxuid_0=U010312810"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">限時下殺77折</div>
           <!-- 特標 -->
@@ -2221,19 +2159,20 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品7 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010445095"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010445095" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">83折!閃靈鯊PRO上市</div>
           <!-- 特標 -->
           <div class="box_txt_h2">【微軟 Microsoft】 閃靈鯊專業版滑鼠(闇影)</div>
           <!-- 品名 -->
-          <div class="box_txt_price">結帳價
+          <div class="box_txt_price">
+            結帳價
             <!-- <div class="price_origin">100,000</div> -->
             <!-- 原價 -->
             <div class="price_sale">1490</div>
@@ -2241,13 +2180,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品8 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010384601"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010384601" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">現省400!過年不打烊</div>
           <!-- 特標 -->
@@ -2261,31 +2200,32 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- END -->
   </div>
 </div>
 <!------------------=2=------------------------>
 <div class="wrap_title">
   <div class="title_outer">
-    <div class="title_inner">人氣熱銷↘限時下殺
-    </div>
+    <div class="title_inner">人氣熱銷↘限時下殺</div>
   </div>
 </div>
 <!-- 第2-1排 -->
 <div class="wrap_box_0b4s">
   <div class="box_outer">
     <!-- 商品9 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=F_003_001_014_002&dc_cargxuid_0=U010444757"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">送32卡+原電</div>
           <!-- 特標 -->
-          <div class="box_txt_h2">INSTA360 ONE X 全景相機 (公) </div>
+          <div class="box_txt_h2">INSTA360 ONE X 全景相機 (公)</div>
           <!-- 品名 -->
           <div class="box_txt_price">
             <!-- <div class="price_origin">100,000</div> -->
@@ -2295,14 +2235,16 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品10 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=F_001_001_002_004&dc_cargxuid_0=U010427323"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">原廠保固拆封品</div>
           <!-- 特標 -->
@@ -2316,13 +2258,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品11 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=F_004_007_006_011"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=F_004_007_006_011" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">限時88折</div>
           <!-- 特標 -->
@@ -2336,13 +2278,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品12 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=F_004_014_017"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=F_004_014_017" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">限時96折</div>
           <!-- 特標 -->
@@ -2356,7 +2298,8 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- END -->
   </div>
 </div>
@@ -2364,12 +2307,13 @@
 <div class="wrap_box_0b4s">
   <div class="box_outer">
     <!-- 商品13 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=Q_002_016_060&dc_cargxuid_0=U010229222"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">結帳85折</div>
           <!-- 特標 -->
@@ -2383,14 +2327,16 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品14 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=Q_005_012_081&dc_cargxuid_0=U010083064"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">限時特價</div>
           <!-- 特標 -->
@@ -2404,14 +2350,16 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品15 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=Q_004_012_001&dc_cargxuid_0=U010427481"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">結帳88折</div>
           <!-- 特標 -->
@@ -2425,14 +2373,16 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品16 -->
-    <div class="box_inner"> <a
+    <div class="box_inner">
+      <a
         href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=Q_003_009_001&dc_cargxuid_0=U010414285"
-        target="_blank">
+        target="_blank"
+      >
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">限時下殺</div>
           <!-- 特標 -->
@@ -2446,26 +2396,25 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- END -->
   </div>
 </div>
 <!------------------=3=------------------------>
 <div class="wrap_title">
   <div class="title_outer">
-    <div class="title_inner">新春獻禮★6折up
-    </div>
+    <div class="title_inner">新春獻禮★6折up</div>
   </div>
 </div>
 <!-- 第3-1排 -->
 <div class="wrap_box_0b4s">
   <div class="box_outer">
     <!-- 商品17 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=R_001_003_014"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=R_001_003_014" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">年度熱銷降四千送禮</div>
           <!-- 特標 -->
@@ -2479,13 +2428,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品18 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=R_004_003_012"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=R_004_003_012" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">過年必備再送五重禮</div>
           <!-- 特標 -->
@@ -2499,13 +2448,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品19 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010423253"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010423253" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">年終大掃除58折</div>
           <!-- 特標 -->
@@ -2519,15 +2468,15 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品20 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010417094"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010417094" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
-          <div class="box_txt_h1">特殺77折送USB風扇 </div>
+          <div class="box_txt_h1">特殺77折送USB風扇</div>
           <!-- 特標 -->
           <div class="box_txt_h2">Arche 艾鉅 令妃款 救車行動電源AR-51</div>
           <!-- 品名 -->
@@ -2539,7 +2488,8 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- END -->
   </div>
 </div>
@@ -2547,11 +2497,10 @@
 <div class="wrap_box_0b4s">
   <div class="box_outer">
     <!-- 商品21 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_002_008_006"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_002_008_006" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">冬季限定降</div>
           <!-- 特標 -->
@@ -2565,13 +2514,13 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品22 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_003_005_018"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_003_005_018" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">全系列6折起</div>
           <!-- 特標 -->
@@ -2585,19 +2534,20 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品23 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_005_004_053"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_005_004_053" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
           <div class="box_txt_h1">熱銷結帳85折</div>
           <!-- 特標 -->
           <div class="box_txt_h2">TRENY 加寬鋁製六階扶手梯</div>
           <!-- 品名 -->
-          <div class="box_txt_price">結帳
+          <div class="box_txt_price">
+            結帳
             <!-- <div class="price_origin">100,000</div> -->
             <!-- 原價 -->
             <div class="price_sale">1784</div>
@@ -2605,16 +2555,15 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品24 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_006_001_004_004"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=S_006_001_004_004" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
-          <div class="box_txt_h1">新春招財2件8折
-          </div>
+          <div class="box_txt_h1">新春招財2件8折</div>
           <!-- 特標 -->
           <div class="box_txt_h2">【Light+】新春財神爺植栽</div>
           <!-- 品名 -->
@@ -2626,7 +2575,8 @@
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- END -->
   </div>
 </div>
@@ -2634,97 +2584,85 @@
 <div class="wrap_box_0b4s">
   <div class="box_outer">
     <!-- 商品25 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_001_002_012"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_001_002_012" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
-          <div class="box_txt_h1">特價送三重好禮
-          </div>
+          <div class="box_txt_h1">特價送三重好禮</div>
           <!-- 特標 -->
-          <div class="box_txt_h2">Panasonic 49吋4K液晶顯示器 TH-49FX600W
-          </div>
+          <div class="box_txt_h2">Panasonic 49吋4K液晶顯示器 TH-49FX600W</div>
           <!-- 品名 -->
           <div class="box_txt_price">
             <!-- <div class="price_origin">100,000</div> -->
             <!-- 原價 -->
-            <div class="price_sale">22299
-            </div>
+            <div class="price_sale">22299</div>
             <!-- 特價 -->
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品26 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_006_015_014"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_006_015_014" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
-          <div class="box_txt_h1">獨家結帳價▼免萬元
-          </div>
+          <div class="box_txt_h1">獨家結帳價▼免萬元</div>
           <!-- 特標 -->
-          <div class="box_txt_h2">SAMPO聲寶140公升雙門冰箱SR-A14Q(R8)-全新福利品
-          </div>
+          <div class="box_txt_h2">SAMPO聲寶140公升雙門冰箱SR-A14Q(R8)-全新福利品</div>
           <!-- 品名 -->
           <div class="box_txt_price">
             <!-- <div class="price_origin">100,000</div> -->
             <!-- 原價 -->
-            <div class="price_sale">9888
-            </div>
+            <div class="price_sale">9888</div>
             <!-- 特價 -->
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品27 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_005_008_017"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_005_008_017" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
-          <div class="box_txt_h1">福利品限時特價
-          </div>
+          <div class="box_txt_h1">福利品限時特價</div>
           <!-- 特標 -->
-          <div class="box_txt_h2">(福利品)TOSHIBA東芝 變頻16公斤洗衣機AW-DG16WAG
-          </div>
+          <div class="box_txt_h2">(福利品)TOSHIBA東芝 變頻16公斤洗衣機AW-DG16WAG</div>
           <!-- 品名 -->
           <div class="box_txt_price">
             <!-- <div class="price_origin">100,000</div> -->
             <!-- 原價 -->
-            <div class="price_sale">18200
-            </div>
+            <div class="price_sale">18200</div>
             <!-- 特價 -->
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- 商品28 -->
-    <div class="box_inner"> <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_004_003_014"
-        target="_blank">
+    <div class="box_inner">
+      <a href="http://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=G_004_003_014" target="_blank">
         <!-- <div class="box_icon"><span>圓標內文字最多九字</span></div> -->
-        <div class="box_photo"> <img src="https://i.ibb.co/jLPdjhB/222.jpg"><!-- 圖片位置 -->
-        </div>
+        <div class="box_photo"><img src="https://i.ibb.co/jLPdjhB/222.jpg" /><!-- 圖片位置 --></div>
         <div class="box_txt">
-          <div class="box_txt_h1">降3千現貨搶
-          </div>
+          <div class="box_txt_h1">降3千現貨搶</div>
           <!-- 特標 -->
-          <div class="box_txt_h2">(快速到貨)ViewSonic M1 可攜式LED投影機
-          </div>
+          <div class="box_txt_h2">(快速到貨)ViewSonic M1 可攜式LED投影機</div>
           <!-- 品名 -->
           <div class="box_txt_price">
             <!-- <div class="price_origin">100,000</div> -->
             <!-- 原價 -->
-            <div class="price_sale">9990
-            </div>
+            <div class="price_sale">9990</div>
             <!-- 特價 -->
           </div>
           <div class="box_txt_btn"></div>
         </div>
-      </a> </div>
+      </a>
+    </div>
     <!-- END -->
   </div>
 </div>
@@ -2740,29 +2678,3 @@
     </li>
   </ul>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
